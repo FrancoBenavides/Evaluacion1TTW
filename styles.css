@@ -1,0 +1,120 @@
+/* Estilos comunes para todas las páginas */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #000;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+/* Estilos específicos para cada página */
+
+/* Estilos para la página de inicio */
+.introduction {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la página de galería */
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para la página de contacto */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
